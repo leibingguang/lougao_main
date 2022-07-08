@@ -1,4 +1,4 @@
-package lougao.netty;
+package lougao.netty.simple;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

@@ -1,4 +1,4 @@
-package lougao.netty;
+package lougao.netty.simple;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -28,7 +28,7 @@ public class NettySimpleExampleDemo {
                     @Override
                     protected void initChannel(SocketChannel ch) {
                         try {
-                            ch.pipeline().addLast(new com.gupao.edu.netty.example.simple.NormalMessageHandler());
+                            ch.pipeline().addLast(new NormalMessageHandler());
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

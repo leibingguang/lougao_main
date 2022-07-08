@@ -32,6 +32,6 @@ public class NIOSelectorServerSocketDemo implements Runnable{
 
     @Override
     public void run() {
-        while (selector.in)
+//        while (selector.in)
     }
 }
